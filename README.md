@@ -7,7 +7,7 @@
 Efficient implementation of stacked linear modules in PyTorch, with support for output and stack subsetting.
 
 ## Features
-
+- **`LinearLayer`**: A linear layer with support for efficient output subsetting.
 - **`StackedLinearLayer`**: A parallelized linear layer that applies multiple independent transformations across different input stacks simultaneously. This is significantly more efficient than for loop over multiple `nn.Linear` layers. This is useful for specialized neural architectures like Additive Decoders.
 - **Subsetting Support**: Both layers allow for subsetting output features during the forward pass, and `StackedLinearLayer` additionally supports subsetting stacks.
 
