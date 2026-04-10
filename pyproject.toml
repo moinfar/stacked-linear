@@ -4,7 +4,7 @@ requires = [ "hatchling" ]
 
 [project]
 name = "stacked-linear"
-version = "0.0.1"
+version = "0.1.0"
 description = "Efficient implementation of stacked linear modules"
 readme = "README.md"
 license = { file = "LICENSE" }
