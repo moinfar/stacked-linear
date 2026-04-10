@@ -3,9 +3,9 @@ build-backend = "hatchling.build"
 requires = [ "hatchling" ]
 
 [project]
-name = "parallel-linear"
+name = "stacked-linear"
 version = "0.0.1"
-description = "Efficient implementation of parallel linear modules"
+description = "Efficient implementation of stacked linear modules"
 readme = "README.md"
 license = { file = "LICENSE" }
 maintainers = [
@@ -28,9 +28,9 @@ dependencies = [
   "session-info2",
 ]
 # https://docs.pypi.org/project_metadata/#project-urls
-urls.Documentation = "https://parallel-linear.readthedocs.io/"
-urls.Homepage = "https://github.com/moinfar/parallel-linear"
-urls.Source = "https://github.com/moinfar/parallel-linear"
+urls.Documentation = "https://stacked-linear.readthedocs.io/"
+urls.Homepage = "https://github.com/moinfar/stacked-linear"
+urls.Source = "https://github.com/moinfar/stacked-linear"
 
 [dependency-groups]
 dev = [
@@ -126,7 +126,7 @@ run.omit = [
   "**/test_*.py",
 ]
 run.patch = [ "subprocess" ]
-run.source = [ "parallel_linear" ]
+run.source = [ "stacked_linear" ]
 
 [tool.cruft]
 skip = [
