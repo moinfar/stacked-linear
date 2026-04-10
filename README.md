@@ -2,6 +2,7 @@
 
 [![Tests][badge-tests]][tests]
 [![Documentation][badge-docs]][documentation]
+[![Codecov][badge-codecov]][link-codecov]
 
 Efficient implementation of stacked linear modules in PyTorch, with support for output and stack subsetting.
 
@@ -66,5 +67,7 @@ output_stack_subset = layer(x_subset, stack_subset=stack_subset) # Shape: (2, 2,
 [badge-tests]: https://img.shields.io/github/actions/workflow/status/moinfar/stacked-linear/test.yaml?branch=main
 [badge-docs]: https://img.shields.io/readthedocs/stacked-linear
 [tests]: https://github.com/moinfar/stacked-linear/actions/workflows/test.yaml
-[documentation]: https://stacked-linear.readthedocs.io
+[documentation]: https://stacked-linear.readthedocs.io/en/latest/
 [issue tracker]: https://github.com/moinfar/stacked-linear/issues
+[badge-codecov]: https://codecov.io/gh/moinfar/stacked-linear/graph/badge.svg?token=THDLKTI14L
+[link-codecov]: https://codecov.io/gh/moinfar/stacked-linear
