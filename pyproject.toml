@@ -23,9 +23,7 @@ classifiers = [
   "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
-  "anndata",
-  # for debug logging (referenced from the issue template)
-  "session-info2",
+  "torch>=2",
 ]
 # https://docs.pypi.org/project_metadata/#project-urls
 urls.Documentation = "https://stacked-linear.readthedocs.io/"
@@ -136,7 +134,4 @@ skip = [
   "src/**/basic.py",
   "docs/api.md",
   "docs/changelog.md",
-  "docs/references.bib",
-  "docs/references.md",
-  "docs/notebooks/example.ipynb",
 ]
